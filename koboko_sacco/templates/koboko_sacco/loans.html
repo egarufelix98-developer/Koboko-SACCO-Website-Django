@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block head_title %}Koboko United Savings and Credit Cooperative Society{% endblock %}
+{% block content %}
+<main id="main">
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+  <div class="container">
+
+    <div class="d-flex justify-content-between align-items-center">
+      <h2 class="pt-3 pb-1 text-uppercase">Loans</h2>
+      <ol>
+        <li><a href="{% url 'koboko_sacco:index' %}">Home</a></li>
+         <li><a href="{% url 'koboko_sacco:services' %}">What We Offer</a></li>
+        <li class="text-success">Loans</li>
+      </ol>
+    </div>
+
+  </div>
+</section><!-- End Breadcrumbs -->
+<section id="team" class="team section-bg pb-5">
+<div class="container pb-5">
+    <div class="section-title" data-aos="fade-up">
+      <h2 class="pb-4 pt-4">Loans</h2>
+    </div>
+    <div data-aos="fade-up">
+      <p class="text-justify">
+        Make your day today transactions easy with our Koboko United Sacco Savings Accounts. Our accounts ensure safety and security of your finances. Whether you would like to freely access or earn interest from it. We have different types of accounts to suit your needs.
+      </p>
+      <div class="row pt-5">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top p-2" src="{% static 'koboko_sacco/assets/img/loans/salary_loan.PNG' %}" alt="Salary Loan" style="height: 220px;">
+            <div class="card-body">
+              <p class="text-center text-uppercase text-dark" style="font-weight: bold;">Salary Loan</p>
+              <p class="text-justify">Do you need a quick cash to pay for your further studies or your children’s education, rent or take that much needed vacation, buy a car....<a href="">learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'koboko_sacco/assets/img/loans/school.PNG' %}" alt="School Fees Loan">
+            <div class="card-body">
+              <p class="text-center text-uppercase text-dark" style="font-weight: bold;">SCHOOL FEES LOANS</p>
+              <p class="text-justify">Are you stuck with school fees dues? Do you need to buy some scholastic or school requirements for your school going children?...<a href="">learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top p-2" src="{% static 'koboko_sacco/assets/img/loans/farmer.jpg' %}" alt="Salary Loan" style="height: 220px;">
+            <div class="card-body">
+              <p class="text-center text-uppercase text-dark" style="font-weight: bold;">FARMERS’ LOAN</p>
+              <p class="text-justify">This account allows you to accumulate progressive savings while providing amazing interest paid on your savings up to 10% per annum...<a href="">learn more</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5 justify-content-center">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'koboko_sacco/assets/img/loans/motors.png' %}" alt="Salary Loan" style="height: 220px;">
+            <div class="card-body">
+              <p class="text-center text-uppercase text-dark" style="font-weight: bold;">MOTORCYCLE LOANS</p>
+              <p class="text-justify">Do you need to purchase your first motorcycle or buy your loved one a gift? This Loan is designed with you and your family in mind....<a href="">learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top p-2" src="{% static 'koboko_sacco/assets/img/loans/commercial.jpg' %}" alt="Salary Loan" style="height: 220px;">
+            <div class="card-body">
+              <p class="text-center text-uppercase text-dark" style="font-weight: bold;">ASSETS & COMMERCIAL LOANS </p>
+              <p class="text-justify">Get to the unimaginable heights with our commercial loans. Have the confidence to move your small and medium enterprise to a new scale....<a href="">learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top p-2" src="{% static 'koboko_sacco/assets/img/loans/emergency.jpg' %}" alt="Salary Loan" style="height: 220px;">
+            <div class="card-body">
+              <p class="text-center text-uppercase text-dark" style="font-weight: bold;">EMERGENCY LOANS</p>
+              <p class="text-justify">We extend emergency loans to an extent possible to meet the critical needs of the members such as medical treatment, accidents and deaths.....<a href="">learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+</main>
+{% endblock content %}

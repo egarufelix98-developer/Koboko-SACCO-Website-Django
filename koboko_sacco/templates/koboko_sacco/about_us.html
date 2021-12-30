@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            sacco
+        </title>
+    </head>
+    <body>
+        <h6>
+            About Us
+        </h6>
+        <div>
+            <ul>
+                <li>Our Profile</li>
+                <li>Mission and Vision</li>
+                <li>Logo History</li>
+                <li>Our history</li>
+                <li>Our partners</li>
+                <li>Our values</li>
+                <li>Financial information/Indicators</li>
+
+            </ul>
+        </div>
+        <div>
+            <h6>Our people</h6>
+            <ul>
+                <li>Our board</li>
+                <li>Our team</li>
+                <li>Governance structure</li>
+            </ul>
+        </div>
+        <div>
+            <h6>Our Impact</h6>
+            <ul>
+                <li>Training and mentorship</li>
+                <li>Financial Literacy</li>
+                <li>Success stories</li>
+            </ul>
+        </div>
+        <div>
+            <h6>OUR PROFILE</h6>
+            <h5>Vision</h5>
+            <p>To reduce poverty and improve the standard of living of the shareholders.</p>
+            <h5>Mission</h5>
+            <p>To provide financial services to its shareholders sustainably so as to improve their standard of living.</p>
+            <h5>Motto</h5>
+            <p>Small savings, Big development.</p>
+        </div>
+        <div>
+            <h6>LOGO HISTORY</h6>
+            <p>The evolution of Koboko United Sacco logo attests to our commitment to develop and grow our community while remaining relevant. The logo design expresses the position of the Sacco in our Agrarian economy and pays homage to key mileage to our civilization.
+            </p>
+            <p>
+                The koboko united Sacco logo reflects the peoples remarkable history of over hundreds of years in the agricultural economy.
+            </p>
+            <p>
+                The green foreground in the logo implies the two farmers in the middle ground.
+            </p>
+            <p>
+                The two people holding the hoe and money are the farmers who grow the crops in the foreground.
+            </p>
+            <p>
+                Over the years the logo has morphed to reflect the inevitable evolution of the times and the Sacco’s contribution to the growth and development of the region of West Nile in specific koboko District.
+            </p>
+            <p>
+                These changes illustrate how the Sacco has managed to maintain its illustrious legacy.
+            </p>
+        </div>
+        <div>
+            <h6>OUR HISTORY</h6>
+            <p>Koboko United Savings and credit Cooperative society limited (Kusacco) was started by a group of women called the koboko United women association KUWA IN 1987
+            </p>
+            <p>
+                In the year 1987, there were no banking facilities in koboko and yet the people were in dire need of these facilities.
+            </p>
+            <p>The small group of women the therefore came together pooling their resources and they were only interested in creating a finance basket save and advance loans to each other at affordable rates.
+            </p>
+            <p>They had no idea the organization would be an inspiration to many. With the help of rural microfinance limited (RMFL), the women were advised to form a cooperative
+            </p>
+            <p>On the 17th April 2003, Kusacco was registered as a cooperative savings and society with the registration no 6720 under the cooperative act 1991, with a total 0f 243 members. 136 being female, 101 males, 06 groups and 03 management staff.
+            </p>
+            <p>
+                Since inception in 2003, Kusacco has grown from strength to strength as the leading Sacco in koboko with nearly 8,000 members.
+            </p>
+            <p>
+                Kusacco has developed a wide range of clientele which includes government institutions, non government organizations and cooperate companies, business men and women,farmers,students.
+            </p>
+            <p>
+                With the help and partnership with aBi –Trust and in line with the growth and expanction strategy, KUSACCO has adopted a strong, bold brand inclusive of members from all walks of life.
+            </p>
+            <p>
+                The Sacco’s operations are concentrated within the sub counties of Koboko that is Kuluba, LudaraAbuku, Midia, Lobule, Dranya and Koboko Municipality divisions.
+            </p>
+            <p>
+                However with the growing need of financial services, Kusacco has extended its coverage to the whole of West Nile, some parts of south Sudan and Democratic Republic of Congo.
+            </p>
+            <p>
+                Kusacco offers financial services to its members regardless of their age, sex, race, creed religion or marital status.
+            </p>
+            <p>
+                To cater for the growing needs of the microfinance clients in Uganda, Koboko United Sacco offers a number of products and services such as savings, credit schemes, Consultancy and Financial literacy trainings, cash transfers, Agency banking services.
+            </p>
+        </div>
+        <div>
+            <h3>OUR PARTNERS</h3>
+            <ul>
+                <li>AMFIU – Association of Microfinance Institutions in Uganda</li>
+                <li>aBi – Trust – Agricultural Business Initiative Trust</li>
+                <li>Koboko Municipal Council</li>
+                <li>Koboko District</li>
+            </ul>
+            
+        </div>
+        <div>
+            <h6>OUR VALUES</h6>
+            <p>Koboko united Sacco exists to serve the interest of our clients. We do this by creating innovative and differentiated financial solutions that speak directly to our clients. To do this well, we hold the following dear;
+            </p>
+            FINANCIAL INFORMATION/INDICATORS
+        </div>
+        <div>
+            <h6>OUR PEOPLE</h6>
+            <h5>OUR BOARD </h5>
+            <p>To ensure that we remain focused to the client’s interest, The Annual General Assembly elects people (Members of the Sacco) to serve and oversee the activities of the Sacco both internal and External and ensure proper governance. The Board of Directors consists of members from diverse backgrounds each bringing a unique set of skills with them.
+            </p>
+            <h5>OUR TEAM</h5>
+            <p>Our team is made up of individuals who are schooled and worked in different other fields before. We are committed to serving our clients</p>
+            <h5>OUR IMPACT</h5>
+            <ul>
+                <li>Training and mentorship</li>
+                <li>Financial Literacy</li>
+                <li>Success stories</li>
+            </ul>
+        </div>
+    </body>
+</html>
+
+{% extends 'base.html' %}
+
+{% load static %}
+{% block head_title %}Koboko United Savings and Credit Cooperative Society{% endblock %}
+{% block content %}
+<main id="main">
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+  <div class="container">
+
+    <div class="d-flex justify-content-between align-items-center">
+      <h2>About Us</h2>
+      <ol>
+        <li><a href="{% url 'koboko_sacco:index' %}">Home</a></li>
+        <li>About Us</li>
+      </ol>
+    </div>
+
+  </div>
+</section><!-- End Breadcrumbs -->
+
+
+</main>
+{% endblock content %}

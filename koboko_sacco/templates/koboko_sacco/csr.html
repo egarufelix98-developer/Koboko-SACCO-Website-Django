@@ -1,0 +1,35 @@
+
+{% extends 'base.html' %}
+
+{% load static %}
+{% block head_title %}Koboko United Savings and Credit Cooperative Society{% endblock %}
+{% block content %}
+<main id="main">
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+  <div class="container">
+
+    <div class="d-flex justify-content-between align-items-center">
+      <h2 class="pt-3 pb-1 text-uppercase">Cooperate Social Responsibility</h2>
+      <ol>
+        <li><a href="{% url 'koboko_sacco:index' %}">Home</a></li>
+        <li>Cooperate Social Responsibility</li>
+      </ol>
+    </div>
+
+  </div>
+</section><!-- End Breadcrumbs -->
+<section id="team" class="team section-bg pt-5 pb-5">
+  <div class="container pb-5">
+
+    <div class="section-title" data-aos="fade-up">
+      <h2 class="pt-4">Our <strong>Cooperate Social Responsibility</strong></h2>
+      <p class="text-justify">At Koboko united Sacco we believe in our customers and a better community in addition to providing financial services.We believe that today’s businesses have to use their strengths to benefit the local community by transforming their lives and livelihoods both socially and economically.<br><br>
+      To complement it’s distinguished banking and financial role, Koboko united Sacco makes contributions in cultural, environmental and educational programmes, as well as health incentives.<br><br>
+      Some of the projects we have undertaken include, cleaning Hospitals and visiting the sick in Hospitals as part of the Cooperate Social Responsibility (CSR).
+      </p>
+    </div>
+  </div>
+</section>
+</main>
+{% endblock content %}

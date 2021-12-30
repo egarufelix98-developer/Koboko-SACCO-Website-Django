@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block head_title %}Koboko United Savings and Credit Cooperative Society{% endblock %}
+{% block content %}
+<main id="main">
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+  <div class="container">
+
+    <div class="d-flex justify-content-between align-items-center">
+      <h2 class="pt-3 pb-1 text-uppercase">Company Profile</h2>
+      <ol>
+        <li><a href="{% url 'koboko_sacco:index' %}">Home</a></li>
+        <li>Company Profile</li>
+      </ol>
+    </div>
+
+  </div>
+</section><!-- End Breadcrumbs -->
+<section id="team" class="team section-bg">
+<div class="container">
+    <div class="section-title pt-5" data-aos="fade-up">
+      <h2>Our Company Profile </h2>
+    </div>
+    <div data-aos="fade-up">
+      <p class="text-justify">
+        Koboko United Savings and Credit Cooperative Society (KUSACCO) is a community based financial institution offering microfinance and other financial services to all its members regardless of their race, sex, creed or marital status. To cater for the growing needs of the growing microfinance clients in Uganda, Koboko United Sacco offers a number of products and services such as savings, credit schemes, agency banking services and tractor services at very competitive rates.<br><br>
+        The Sacco’s operations are concentrated within the region of WestNile and in specific koboko District. Its area of operation covers all the sub counties of Dranya, Lobule, Ludara, Midia, Abuku, Kuluba and Koboko Municipality all within the District of Koboko.<br><br>
+        Like the old adage ‘’the sky is the limit’’, Koboko United Sacco in the need to serve more people has expanded its operations to cover some parts of Democratic Republic of Congo(DRC) and South Sudan.
+      </p>
+    </div>
+</div>
+</section>
+<section class="section-bg pb-5">
+    <div class="container pb-5">
+        <div class="row pb-5">
+            <div class="col-md-4">
+                <div class="p-4" style="background-color: #387e3c">
+                   <h5 class="text-white">OUR MISSION</h5>
+                    <p class="pt-2 text-white">
+                        To provide financial services to its shareholders sustainably so as to improve their standard of living.
+                    </p> 
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4" style="background-color: #387e3c">
+                    <h5 class="text-white">OUR MOTTO</h5>
+                    <p class="pt-2 text-white">
+                        Small savings, Big development.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4" style="background-color: #387e3c">
+                    <h5 class="text-white">OUR VISSION</h5>
+                    <p class="pt-2 text-white">
+                        To reduce poverty and improve the standard of living of the shareholders.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+{% endblock content %}

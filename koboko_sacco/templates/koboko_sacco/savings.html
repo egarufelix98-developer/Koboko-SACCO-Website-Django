@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block head_title %}Koboko United Savings and Credit Cooperative Society{% endblock %}
+{% block content %}
+<main id="main">
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+  <div class="container">
+
+    <div class="d-flex justify-content-between align-items-center">
+      <h2 class="pt-3 pb-1 text-uppercase">Savings</h2>
+      <ol>
+        <li><a href="{% url 'koboko_sacco:index' %}">Home</a></li>
+        <li>Savings</li>
+      </ol>
+    </div>
+
+  </div>
+</section><!-- End Breadcrumbs -->
+<section id="team" class="team section-bg pb-5">
+<div class="container pb-5">
+    <div class="section-title" data-aos="fade-up">
+      <h2 class="pb-4 pt-4">Savings</h2>
+    </div>
+    <div data-aos="fade-up">
+      <p class="text-justify">
+        Make your day today transactions easy with our Koboko United Sacco Savings Accounts. Our accounts ensure safety and security of your finances. Whether you would like to freely access or earn interest from it. We have different types of accounts to suit your needs.
+      </p>
+      <div class="row pt-5">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top p-2" src="{% static 'koboko_sacco/assets/img/savings/ordinary.png' %}" alt="Salary Loan" style="height: 220px;">
+            <div class="card-body">
+              <p class="text-center text-uppercase text-dark" style="font-weight: bold;">Ordinary Savings Account</p>
+              <p class="text-justify">With our Ordinary savings account, you have the perfect medium to accumulate personal deposits and make withdrawals at your convenience....<a href="">learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top p-2" src="{% static 'koboko_sacco/assets/img/savings/infant.jpg' %}" alt="Salary Loan" style="height: 220px;">
+            <div class="card-body">
+              <p class="text-center text-uppercase text-dark" style="font-weight: bold;">Infant Account</p>
+              <p class="text-justify">You can regularly save small amounts and fix to accumulate a lump sum towards the future of your child. Make life easy and save to finance your child’s....<a href="">learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+             <img class="card-img-top p-2" src="{% static 'koboko_sacco/assets/img/savings/fixed.jpg' %}" alt="Salary Loan" style="height: 220px;">
+            <div class="card-body">
+              <p class="text-center text-uppercase text-dark" style="font-weight: bold;">Fixed Deposit Account</p>
+              <p class="text-justify">This account allows you to accumulate progressive savings while providing amazing interest paid on your savings up to 10% per annum...<a href="">learn more</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-md-4">
+          <div class="card">
+             <img class="card-img-top p-2" src="{% static 'koboko_sacco/assets/img/savings/joint.jpg' %}" alt="Salary Loan" style="height: 220px;">
+            <div class="card-body">
+              <p class="text-center text-uppercase text-dark" style="font-weight: bold;">JOINT ACCOUNT</p>
+              <p class="text-justify">Make your way to accumulating wealth very easy with our joint account if you cannot do it alone more quickly.Save small amounts of money....<a href="">learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top p-2" src="{% static 'koboko_sacco/assets/img/savings/group.jpg' %}" alt="Salary Loan" style="height: 220px;">
+            <div class="card-body">
+              <p class="text-center text-uppercase text-dark" style="font-weight: bold;">GROUP/VSLA ACCOUNTS</p>
+              <p class="text-justify">Enjoy this easy and convenient way to manage your groups/ VSLA finances. With this you can regularly save to build up a lump sum to fix....<a href="">learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+</main>
+{% endblock content %}
